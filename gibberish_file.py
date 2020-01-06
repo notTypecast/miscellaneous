@@ -83,7 +83,6 @@ def write_sentence():
 	return sentence, length
 
 
-#90k words
 word_count = 0
 
 vowels = 'aeiouy'
