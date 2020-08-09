@@ -39,7 +39,10 @@ def getAllEquationResults(pair):
 
 	return results
 
-
+#Usage: getEquation([...] (list of integers), n (integer))
+#will find an algebraic expression, if any exists, using the numbers in the list
+#that equals the given integer, n
+#if no such expression exists, returns None
 def getEquation(l, n):
 
 	#Turn numbers into equation objects
